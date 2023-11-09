@@ -5,3 +5,9 @@ function Comment() {
 }
 
 export default Comment;
+
+class Comment extends React.Component {
+  render() {
+    return <div>Naturally, I agree with this article.</div>;
+  }
+}
